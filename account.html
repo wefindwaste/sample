@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Waste2Connect</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/account.css">
+        <link rel="shortcut icon" type="image/gif" href="img/logo.gif">
+    </head>
+    <body>
+      <!-- The Header Top-->
+      <header>
+        <div id="nav_bar">
+          <ul>
+            <li><a href="index.html"><img src="img/nav1.png" alt="" />HOME</a></li>
+            <li><a href="sell.html"><img src="img/nav2.png" alt="" />SELL IT</a></li>
+            <li><a href="#"><img src="img/nav3.png" alt="" />TIPS AND NEWS</a></li>
+
+            <li><a href="#"><img src="img/nav4.png" alt="" />CUSTOMER CARE</a>
+          <ul>
+            <li><a href="#">Survival</a></li>
+            <li><a href="#">Pure-PVP</a></li>
+            <li><a href="#">Gamesworld</a></li>
+          </ul>
+            </li>
+
+            <li><a href="#"><img src="img/nav5.png" alt="" />ABOUT US</a></li>
+            <li><a href="#"><img src="img/nav6.png" alt="" />CONTACT US</a></li>
+            <a href="#" class="icon"><img src="img/nav8.png" alt="" /></a>
+            <a href="account.html" class="icon marg-icon"><img src="img/nav7.png" alt="" /></a>&nbsp;
+
+          </ul>
+        </div>
+      </header>
+
+      <div class="ctrl"></div>
+
+      <!--The Body Top-->
+      <section>
+        <div class="bg-display">
+          <div class="logo-display">
+            <p>Segregate and Earn</p>
+              <img class="img_logo" src="img/official_logo.png" height="150px" width="400px">
+
+          </div>
+          <div class="background-design"></div>
+          <img class="img-shape" src="img/shape.png" height="352.7px" width="498px">
+          <div class="bg-up"></div>
+          <div class="bg-right"></div>
+        </div>
+
+        <iframe src="login.html" height="500px" width="35%" class="login-iframe" frameborder="0">
+        </iframe>
+
+        <p class="signup-p">Don't have an account? &nbsp;<a href="#" onclick="document.getElementById('id01').style.display='block'" class="cn-btn">Sign Up Now!</a></p>
+
+        <div id="id01" class="modal">
+          <div class="ctrl"></div>
+          <div class="bg-display">
+            <div class="logosign-display">
+                <img class="img_logo" src="img/W2C.png" height="350px" width="350px">
+                <div id="logosign">
+                    <h2 class = "textWaste">
+                        Waste
+                    </h2>
+                    <h1 class="textTwo">2</h1>
+                    <h2 class = "textConnect">
+                        Connect
+                    </h2>
+                </div>
+            </div>
+            <div class="background-design"></div>
+            <img class="img-shape" src="img/shape.png" height="352.7px" width="498px">
+            <div class="bg-up"></div>
+            <div class="bg-right"></div>
+          </div>
+          <span onclick="document.getElementById('id01').style.display='none'" class="close">&times;</span>
+          <form class="modal-content" action="/action_page.php">
+            <div class="container">
+              <h1>Sign Up</h1>
+              <p>Please fill in this form to create an account.</p>
+              <hr>
+              <label for="email"><b>Email</b></label><br>
+              <input type="text" placeholder="Enter Email" name="email" required><br>
+
+              <label for="psw"><b>Password</b></label><br>
+              <input type="password" placeholder="Enter Password" name="psw" required><br>
+
+              <label for="psw-repeat"><b>Repeat Password</b></label><br>
+              <input type="password" placeholder="Repeat Password" name="psw-repeat" required><br>
+
+              <label for="psw-repeat"><b>Contact Number</b></label><br>
+              <input type="text" placeholder="Enter Contact Number" name="psw-repeat" required><br>
+
+
+              <div class="clearfix">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                <button type="submit" class="signupbtn">Sign Up</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+    </body>
+</html>

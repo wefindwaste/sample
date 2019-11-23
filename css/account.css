@@ -1,0 +1,269 @@
+.login-iframe{
+  position: static;
+  z-index: -1;
+  margin-top: 60px;
+  margin-right: 15%;
+  float: right;
+  display: block;
+}
+.bg-display{
+    position: absolute;
+    z-index: -2;
+    top: 8.5%;
+    left: 10%;
+}
+.background-design{
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 430px;
+  height: 430px;
+  top: 0;
+  margin: 9px;
+  padding: -3px;
+  border: none;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  background: rgb(0,0,0);
+  -webkit-box-shadow: 14px 12px 10px 0 rgba(0,0,0,0.4) ;
+  box-shadow: 14px 6px 4px 0 rgba(0,0,0,0.4) ;
+  -webkit-transform: rotateX(-8.594366926962348deg) rotateY(14.32394487827058deg) rotateZ(-130.63437728982768deg)   ;
+  transform: rotateX(-8.594366926962348deg) rotateY(14.32394487827058deg) rotateZ(-130.63437728982768deg)   ;
+  transform-origin: 25% 50% 0;
+  z-index: -1;
+  position: relative;
+  margin-top: 50px;
+  opacity: 20%;
+}
+.bg-up{
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 430px;
+  height: 430px;
+  top: 0;
+  margin: 9px;
+  padding: -3px;
+  border: none;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  background: rgb(0,0,0);
+  -webkit-box-shadow: 14px 12px 10px 0 rgba(0,0,0,0.4) ;
+  box-shadow: 14px 6px 4px 0 rgba(0,0,0,0.4) ;
+  -webkit-transform: rotateX(-8.594366926962348deg) rotateY(14.32394487827058deg) rotateZ(-130.63437728982768deg)   ;
+  transform: rotateX(-8.594366926962348deg) rotateY(14.32394487827058deg) rotateZ(-130.63437728982768deg)   ;
+  transform-origin: 70% 20% 0;
+  z-index: -1;
+  position: absolute;
+  margin-left: 6%;
+  opacity: 20%;
+}
+.bg-right{
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 430px;
+  height: 430px;
+  top: 30%;
+  margin: 9px;
+  padding: -3px;
+  border: none;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  background: rgb(0,0,0);
+  -webkit-box-shadow: -14px 12px 10px 0 rgba(0,0,0,0.4) ;
+  box-shadow: -16px 16px 4px 0 rgba(0,0,0,0.4) ;
+  -webkit-transform: rotateX(-8.594366926962348deg) rotateY(14.32394487827058deg) rotateZ(-130.63437728982768deg)   ;
+  transform: rotateX(-8.594366926962348deg) rotateY(14.32394487827058deg) rotateZ(-130.63437728982768deg)   ;
+  transform-origin: 70% 20% 0;
+  z-index: -1;
+  position: absolute;
+  margin-left: 87%;
+  opacity: 20%;
+}
+.img-shape{
+  position: absolute;
+  z-index: -2;
+  top: 42%;
+  left: 35%;
+}
+.logo-display{
+  top: 30%;
+  position: absolute;
+  z-index: 1;
+}
+.logo-display p{
+  position: absolute;
+  color: #1d8dd1;
+  top: 92%;
+  margin-left: 50%;
+}
+.logosign-display{
+  top: 5%;
+  left: 10%;
+  position: absolute;
+  z-index: 1;
+}
+.signup-p{
+  position: absolute;
+  z-index: 1;
+  top: 80%;
+  left: 57%;
+}
+.signup-p, .signup-p a{
+  font-family: 'Arial';
+}
+.cn-btn{
+  text-decoration: none;
+  text-align: center;
+  color: #027eb6;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: transparent;
+  border-bottom: 2px solid gray;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #027eb6;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #cd5c5c;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+  font-family: 'Arial';
+  background-color: #ffffff;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 2; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #ffffff;
+  padding-top: 30px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 0 10% 0 auto; /* 5% from the top, 15% from the bottom and centered */
+  border: none;
+  box-shadow: -10px 10px 4px 0 rgba(0,0,0,0.4) ;
+  width: 30%;
+  height: 550px;
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* The Close Button (x) */
+.close {
+  text-shadow: -2px -1px 4px; rgba(0,0,0,0.4) ;
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #000;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+#logosign{
+	background-color: transparent;
+	position: absolute;
+	width: 350px;
+	height: 80px;
+  left: 8%;
+}
+.textWaste{
+    position: absolute;
+		font-family: 'AlliancePersonalUse';
+    font-size: 30px;
+    color: #000;
+    margin-left: 50px;
+    margin-top: 8px;
+}
+.textTwo{
+	position: absolute;
+	font-family: 'Brush Script MT';
+	font-size: 65px;
+	color: #000;
+	left: 127px;
+	top: 2px;
+}
+.textConnect{
+    position: absolute;
+		font-family: 'AlliancePersonalUse';
+    font-size: 30px;
+    color: #000;
+    left: 160px;
+    margin-top: 8px;
+}
